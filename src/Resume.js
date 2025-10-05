@@ -4,46 +4,30 @@ import './Resume.css';
 function Resume() {
   const education = [
     {
-      degree: "Bachelor of Science in Computer Science",
-      school: "University Name",
-      year: "2020-2024",
-      gpa: "3.8/4.0"
-    },
-    {
-      degree: "High School Diploma",
-      school: "High School Name",
-      year: "2016-2020",
-      gpa: "3.9/4.0"
+      degree: "B.S Computer Science",
+      school: "New Jersey Institute of Technology",
+      year: "Sep 2022 – May 2026",
+      gpa: "3.5/4.0"
     }
   ];
 
   const experience = [
     {
-      title: "Frontend Developer Intern",
-      company: "Tech Company Inc.",
-      period: "Summer 2023",
+      title: "QA Automation Intern",
+      company: "MarketMaker CRE",
+      period: "Aug 2024 – Apr 2025",
       responsibilities: [
-        "Developed responsive web applications using React and CSS",
-        "Collaborated with design team to implement user interfaces",
-        "Optimized application performance and accessibility"
-      ]
-    },
-    {
-      title: "Teaching Assistant",
-      company: "University CS Department",
-      period: "2022-2023",
-      responsibilities: [
-        "Assisted students with programming assignments and projects",
-        "Conducted lab sessions for introductory programming courses",
-        "Graded assignments and provided constructive feedback"
+        "Designed and deployed a Python–Selenium QA automation system with 50+ test cases",
+        "Integrated Azure DevOps for source control, work tracking, and automation",
+        "Implemented CI/CD on Azure to automate test runs, cutting manual QA time by ~40%"
       ]
     }
   ];
 
   const skills = {
-    "Programming Languages": ["JavaScript", "Python", "Java", "C++", "HTML5", "CSS3"],
-    "Frameworks & Libraries": ["React", "Node.js", "Express", "Bootstrap", "jQuery"],
-    "Tools & Technologies": ["Git", "VS Code", "MongoDB", "PostgreSQL", "Figma", "Adobe XD"]
+    "Programming Languages": ["Python", "Java", "C/C++", "C#", "TypeScript", "JavaScript", "HTML", "CSS", "SQL"],
+    "Frameworks & Libraries": ["React.js", "Node.js", "Express.js", "Spring Boot", "Pandas", "NumPy", "Matplotlib", "Scikit-learn", "PyTorch", "Selenium", ".NET", "WPF", "XAML"],
+    "Tools & Technologies": ["AWS", "Azure DevOps", "MySQL", "MongoDB", "PostgreSQL", "Git", "Figma", "Microsoft Office Suite", "Bash/Shell Scripting"]
   };
 
   return (
@@ -74,7 +58,7 @@ function Resume() {
 
           {/* Experience Section */}
           <div className="resume-block">
-            <h3 className="section-title">Experience</h3>
+            <h3 className="section-title">Professional Experience</h3>
             <div className="timeline">
               {experience.map((exp, index) => (
                 <div key={index} className="timeline-item">
