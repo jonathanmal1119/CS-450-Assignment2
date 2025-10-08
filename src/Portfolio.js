@@ -7,7 +7,7 @@ class Portfolio extends Component {
     this.state = {
       projects: [
         {
-          project_image: "/Images/SiliconGuideBackground.png",
+          project_image: "/CS-450-Assignment2/Images/SiliconGuideBackground.png",
           title: "Silicon Guide ",
           description: "AI-powered PC builder leveraging React.js, Node.js, and the OpenAI API to deliver hardware recommendations based on user budgets and preferences.",
           technologies: ["React.js", "Express.js", "MongoDB", "OpenAI API", "AWS"],
@@ -15,7 +15,7 @@ class Portfolio extends Component {
           github: "https://github.com/jonathanmal1119/SiliconGuide"
         },
         {
-          project_image: "/Images/CoursifyBackground.jpg",
+          project_image: "/CS-450-Assignment2/Images/CoursifyBackground.jpg",
           title: "Coursify",
           description: "A student schedule planing website built with React.js, Node.js, and MySQL to help students plan valid course schedules.",
           technologies: ["React.js", "Express.js", "MySQL", "AWS"],
@@ -23,7 +23,7 @@ class Portfolio extends Component {
           github: "https://github.com/Ismail-Shaikh03/Coursify"
         },
         {
-          project_image: "/Images/LearnProjectBackground.png",
+          project_image: "/CS-450-Assignment2/Images/LearnProjectBackground.png",
           title: "Learn Project",
           description: "Windows desktop app to help users optimize study habits through session tracking.",
           technologies: ["C#", ".NET", "WPF", "XAML"],
