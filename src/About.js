@@ -7,7 +7,7 @@ class About extends Component {
       <div className="about-section">
         <div class="about-item">
           <div class="about-photo" aria-label="Your Photo">
-            <img alt="Jonathan Malave" src="/Images/JM_Profile_Picture.jpg"/>
+            <img alt="Jonathan Malave" src="/CS-450-Assignment2/Images/JM_Profile_Picture.jpg"/>
           </div>
           <div class="about-info">
             <h2 class="about-title">About Me</h2>
